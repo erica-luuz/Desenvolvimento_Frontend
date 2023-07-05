@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.cabeçalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+.dadosHeader {
+  width: 10%;
+  height: 90px;
+}
+
+ul {
+  display: flex;
+  flex-direction:row;
+  justify-content: flex-end;
+  gap: 40px;
+  padding: 24px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'Montserrat', serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+a:hover {
+  color: blue;
+  font-size: 16px;
+}
+

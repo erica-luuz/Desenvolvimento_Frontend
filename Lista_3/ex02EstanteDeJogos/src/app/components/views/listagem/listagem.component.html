@@ -1,0 +1,12 @@
+<div class="main">
+  <div class = "jogo" *ngFor="let jogo of jogos">
+    <p>{{ jogo._id }}</p>
+    <p>{{ jogo.titulo }}</p>
+    <p>{{ jogo.editora }}</p>
+    <p>{{ jogo.numDeJogadores }}</p>
+    <p>{{ jogo.tempoDeJogo }}</p>
+   <img [src]=" jogo.imagem " alt="">
+  </div>
+</div>
+
+assim, eu pesquiso uma api, e tenho que ver o que tem dentro dela?

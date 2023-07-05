@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@400;700&family=Righteous&family=Sofia+Sans+Extra+Condensed:ital,wght@1,200&family=Ysabeau+Office:ital,wght@1,200;1,600&display=swap');
+
+.dados {
+  display: flex;
+}
+.dadosHeader {
+  width: 10%;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  font-family: 'Ysabeau Office', sans-serif;
+  padding: auto;
+}
+
+.primeiroParagrafo {
+  font-family: 'Ysabeau Office', sans-serif; ;
+
+}
