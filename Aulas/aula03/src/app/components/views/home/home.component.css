@@ -1,0 +1,19 @@
+.main{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.animais{
+  border: 1px solid black;
+  margin: 5px;
+  width: 300px;
+  background: rgb(2, 68, 68);
+  color: white;
+}
+.animais p{
+  margin: 5px;
+
+}
