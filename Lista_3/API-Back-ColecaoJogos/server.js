@@ -37,6 +37,25 @@ app.post('/adicionar-jogo', async (req, res) => {
     }
     })
 
+    app.delete('/deletar-jogo', async (req, res) => {
+        let { titulo, editora, numDeJogadores, tempoDeJogo, indicacaoFaixaEtaria, imagem } = req.body
+    
+        let jogo = {
+            titulo,
+            editora,
+            numDeJogadores,
+            tempoDeJogo,
+            indicacaoFaixaEtaria,
+            imagem
+        }
+        try {
+            await Jogo.deleteOne(jogo)
+            return res.status(201).json({ message: "Jogo deletado com sucesso!"})
+        } catch (error) {
+                return res.status(500).json({ message: error.message })
+        }
+        })
+
 
 mongoose.connect(connectionString, {
     dbName: "Dbjogos"
