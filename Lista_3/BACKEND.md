@@ -1,4 +1,8 @@
 # Quais as responsabilidades de uma aplicação backend?
+    O back-end, é a estrutura por tras de toda aplicação, é nela que se encontra todos os 
+    códigos responsáveis pela aplicação, o qual tambem se responsabiliza por todo o fluxo de 
+    movimentação, feito numa linguagem de programação e baseado numa lógica estrutural muitas orientadas a 
+    objetos
 
 # O que é uma string de conexão com o banco de dados? ( veja o código das API'S desenvolvidas em aula caso não lembre)
 
@@ -14,10 +18,8 @@
 
 
 
-    https://api.thedogapi.com`
-    https://api.chucknorris.io/jokes/random
 
 
 
-    ah ok acho que entendi, muito obrigada miguel, ficou sim, e que tentei fazer e não consegui, mas vou tentar novamente, ok..
+
     

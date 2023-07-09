@@ -3,18 +3,25 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: 50px;
+
 }
 
 .jogo {
   display: flex;
   width: 200px;
   flex-wrap: wrap;
-  border: 1px solid black;
+  border: 2px solid black;
   justify-content: center;
   margin: 5px;
+  
 }
 
 .jogo p {
   margin: 5px;
+}
+.imagem {
+  height: 180px;
 }
 
